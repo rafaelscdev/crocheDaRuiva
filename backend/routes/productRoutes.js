@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const productController = require('../controllers/productController');
 const authController = require('../controllers/authController');
+const { validateProduct } = require('../middleware/validations');
 const Product = require('../models/Product');
 
 // Rotas públicas
@@ -26,8 +27,8 @@ router.delete('/limpar-todos', async (req, res) => {
     }
 });
 
-router.post('/', productController.createProduct);
-router.put('/:id', productController.updateProduct);
+router.post('/', validateProduct, productController.createProduct);
+router.put('/:id', validateProduct, productController.updateProduct);
 router.delete('/:id', productController.deleteProduct);
 router.patch('/:id/disponibilidade', productController.toggleProductAvailability);
 
