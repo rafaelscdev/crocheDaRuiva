@@ -1,0 +1,64 @@
+[
+    {
+        "nome": "Saia Midi Floral",
+        "descricao": "Saia midi em crochê com detalhes florais, perfeita para o verão",
+        "categoria": "saias",
+        "precoBase": 180.00,
+        "imagens": ["saia1.jpg"],
+        "medidasNecessarias": [
+            {
+                "nome": "Cintura",
+                "descricao": "Medida ao redor da cintura"
+            },
+            {
+                "nome": "Quadril",
+                "descricao": "Medida ao redor do quadril"
+            },
+            {
+                "nome": "Comprimento",
+                "descricao": "Da cintura até o comprimento desejado"
+            }
+        ],
+        "tempoEstimadoProducao": 20
+    },
+    {
+        "nome": "Short Jeans Crochê",
+        "descricao": "Short em crochê com detalhes que imitam jeans, super confortável",
+        "categoria": "shorts",
+        "precoBase": 120.00,
+        "imagens": ["short1.jpg"],
+        "medidasNecessarias": [
+            {
+                "nome": "Cintura",
+                "descricao": "Medida ao redor da cintura"
+            },
+            {
+                "nome": "Quadril",
+                "descricao": "Medida ao redor do quadril"
+            },
+            {
+                "nome": "Comprimento",
+                "descricao": "Da cintura até o comprimento desejado"
+            }
+        ],
+        "tempoEstimadoProducao": 15
+    },
+    {
+        "nome": "Biquíni Triângulo",
+        "descricao": "Biquíni em crochê com detalhes delicados, perfeito para praia",
+        "categoria": "biquinis",
+        "precoBase": 200.00,
+        "imagens": ["biquini1.jpg"],
+        "medidasNecessarias": [
+            {
+                "nome": "Busto",
+                "descricao": "Medida ao redor do busto"
+            },
+            {
+                "nome": "Quadril",
+                "descricao": "Medida ao redor do quadril"
+            }
+        ],
+        "tempoEstimadoProducao": 25
+    }
+] 
